@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    description: "Modelo staging limpio de transacciones bancarias. Contiene movimientos realizados por cuentas a través de diferentes canales como sucursal, banca web, app móvil, cajero automático y datáfono."
+
+    columns:
+      - name: transaction_id
+        description: "Identificador único de la transacción."
+        tests:
+          - unique
+          - not_null
+
+      - name: account_id
+        description: "Identificador de la cuenta asociada a la transacción."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_accounts')
+                field: account_id
+
+      - name: employee_id
+        description: "Empleado asociado a la transacción cuando el canal es sucursal. Para canales digitales, cajero automático o datáfono puede venir nulo."
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_employees')
+                field: employee_id
+
+      - name: transaction_date
+        description: "Fecha y hora en que ocurrió la transacción."
+        tests:
+          - not_null
+
+      - name: transaction_type
+        description: "Tipo de transacción bancaria realizada."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Pago de cuota'
+                  - 'Retiro'
+                  - 'Transferencia enviada'
+                  - 'Deposito'
+                  - 'Consignacion'
+                  - 'Compra con tarjeta'
+                  - 'Pago de servicios'
+                  - 'Transferencia recibida'
+
+      - name: channel
+        description: "Canal por el cual se realizó la transacción."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Banca web'
+                  - 'Sucursal'
+                  - 'Datafono'
+                  - 'App movil'
+                  - 'Cajero automatico'
+
+      - name: amount
+        description: "Valor monetario de la transacción."
+        tests:
+          - not_null
+
+      - name: balance_after
+        description: "Saldo de la cuenta después de aplicar la transacción."
+        tests:
+          - not_null
