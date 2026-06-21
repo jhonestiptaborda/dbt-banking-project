@@ -1,0 +1,11 @@
+branch_id,branch_name,city,region,branch_type,opening_date
+BR001,Sucursal Bogota 1,Bogota,Centro,Rural,2007-07-02
+BR002,Sucursal Medellin 2,Medellin,Antioquia,Urbana,2011-03-04
+BR003,Sucursal Cali 3,Cali,Valle,Urbana,2010-01-03
+BR004,Sucursal Barranquilla 4,Barranquilla,Caribe,Urbana,2007-04-20
+BR005,Sucursal Cartagena 5,Cartagena,Caribe,Rural,2017-03-26
+BR006,Sucursal Bucaramanga 6,Bucaramanga,Santander,Urbana,2018-03-31
+BR007,Sucursal Pereira 7,Pereira,Eje Cafetero,Empresarial,2005-09-18
+BR008,Sucursal Manizales 8,Manizales,Eje Cafetero,Urbana,2007-02-07
+BR009,Sucursal Cucuta 9,Cucuta,Nororiente,Urbana,2010-03-21
+BR010,Sucursal Ibague 10,Ibague,Centro,Rural,2018-07-03

@@ -1,0 +1,26 @@
+employee_id,employee_name,role,branch_id,hire_date
+EMP001,Andres Perez,Gerente de sucursal,BR001,2016-12-10
+EMP002,Paula Ramirez,Cajero,BR008,2015-07-31
+EMP003,Sofia Ramirez,Asesor comercial,BR007,2016-10-29
+EMP004,Carlos Martinez,Gerente de sucursal,BR006,2014-03-03
+EMP005,Julian Jimenez,Analista de credito,BR006,2012-12-21
+EMP006,Andres Lopez,Gerente de sucursal,BR008,2013-10-07
+EMP007,Mateo Jimenez,Analista de credito,BR009,2016-04-24
+EMP008,Juan Sanchez,Analista de credito,BR002,2013-10-15
+EMP009,Carlos Vargas,Analista de credito,BR004,2022-03-03
+EMP010,Santiago Diaz,Analista de credito,BR006,2016-09-12
+EMP011,Gabriela Martinez,Asesor comercial,BR005,2023-12-24
+EMP012,Santiago Ortiz,Gerente de sucursal,BR004,2018-01-20
+EMP013,Felipe Florez,Cajero,BR009,2017-02-19
+EMP014,Sofia Vargas,Analista de credito,BR001,2013-06-26
+EMP015,Paula Florez,Asesor comercial,BR004,2023-03-13
+EMP016,Catalina Ortiz,Asesor comercial,BR007,2017-12-09
+EMP017,Felipe Suarez,Analista de credito,BR003,2021-08-10
+EMP018,Isabella Diaz,Asesor comercial,BR010,2015-02-07
+EMP019,Sebastian Martinez,Cajero,BR009,2014-06-17
+EMP020,Catalina Gonzalez,Gerente de sucursal,BR003,2013-06-04
+EMP021,Isabella Jimenez,Gerente de sucursal,BR007,2023-11-13
+EMP022,Andres Garcia,Cajero,BR005,2017-12-25
+EMP023,Carlos Torres,Gerente de sucursal,BR006,2015-07-19
+EMP024,Camila Ramirez,Asesor comercial,BR008,2023-05-21
+EMP025,Catalina Torres,Asesor comercial,BR002,2015-06-06

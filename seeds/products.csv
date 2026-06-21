@@ -1,0 +1,9 @@
+product_id,product_name,product_category,interest_rate,annual_fee
+PRD001,Cuenta de ahorros clasica,Cuenta de ahorros,0.015,0
+PRD002,Cuenta corriente personal,Cuenta corriente,0.0,45000
+PRD003,Cuenta de nomina,Cuenta de nomina,0.01,0
+PRD004,CDT 90 dias,CDT,0.085,0
+PRD005,CDT 360 dias,CDT,0.105,0
+PRD006,Tarjeta de credito clasica,Tarjeta de credito,0.265,120000
+PRD007,Credito de consumo,Credito de consumo,0.195,0
+PRD008,Credito hipotecario,Credito hipotecario,0.115,0
